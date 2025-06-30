@@ -1,0 +1,154 @@
+.loadingnews{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.news-area{
+     min-height: 100vh;  /* Reserve space for news area */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.news-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-news{
+    background: rgb(243, 242, 242);
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    max-width: 990px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 5px rgb(219, 219, 219);
+}
+.card-body{
+    margin: 20px;
+    font-size: 25px;
+}
+.card-body h5{
+    font-weight: bold;
+}
+.card-body a{
+    color: rgb(158, 158, 159);
+}
+.card-body button{
+    margin-left:600px;
+    color: white;
+    background: rgb(244, 74, 22);
+    border-radius: 15px;
+    height: 70px;
+    width: 180px;
+    box-shadow: 0 0 5px 5px rgb(219, 219, 219);
+
+}
+.sideber{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: 450px;
+    border: 1px solid black;
+}
+ footer {
+    background-color: #afacac;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footerplace {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.newslogo h1 {
+    font-size: 28px;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.newslogo span {
+    color: #ff5722;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-text p {
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-text p:hover {
+    color: #ff5722;
+}
+
+.newslogo{
+    margin-top: 10px;
+}
+.newslogo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.newslogo span {
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+}
+
+/* --------------------------------summary box--------------------------------------------------------- */
+.summary-modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 1000;
+}
+.summary-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    min-width: 300px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: 10px; right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
