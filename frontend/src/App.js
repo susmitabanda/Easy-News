@@ -4,7 +4,7 @@ import Header from './components/Header';
 import NewsItem from './components/Newsitem';
 
 import Home from './pages/Home';
-import India from './pages/India';
+// import India from './pages/India';
 import Politics from './pages/Politics';
 import Entertainment from './pages/Entertainment';
 import Sports from './pages/Sports';
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Newsboard />} />
           <Route path="/" element={<Home />} />
-          <Route path="/india" element={<India />} />
+          {/* <Route path="/india" element={<India />} /> */}
           <Route path="/politics" element={<Politics />} />
           <Route path="/entertainment" element={<Entertainment />} />
           <Route path="/sports" element={<Sports />} />

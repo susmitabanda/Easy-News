@@ -15,7 +15,6 @@ const Header = () => {
                     <div className="news-topics">
                         <ul className='ulnewstopic'>
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/india">India</Link></li>
                             <li><Link to="/politics">Politics</Link></li>
                             <li><Link to="/entertainment">Entertainment</Link></li>
                             <li><Link to="/sports">Sports</Link></li>
